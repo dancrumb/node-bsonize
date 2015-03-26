@@ -1,0 +1,36 @@
+{
+  "name": "bsonize",
+  "version": "0.0.1",
+  "description": "BSON serialization and deserialization.",
+  "keywords": [
+    "bson",
+    "serialize",
+    "serialization",
+    "deserialize",
+    "deserialization"
+  ],
+  "license": "MIT",
+  "author": "Trung Nguyen <i@meo.guru> (http://meo.guru)",
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/bsonize.js",
+  "repository": "meoguru/node-bsonize",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp document"
+  },
+  "dependencies": {
+    "bson": "^0.2.21",
+    "thenify": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "gulp": "^3.8.11",
+    "gulp-mdox": "0.0.2",
+    "gulp-mocha": "^2.0.0",
+    "rewire": "^2.3.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
