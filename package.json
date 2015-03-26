@@ -1,6 +1,6 @@
 {
   "name": "bsonize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "BSON serialization and deserialization.",
   "keywords": [
     "bson",
